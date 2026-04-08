@@ -1,27 +1,49 @@
-# Gene-Expresssion-Explorer
+# Advanced Gene Expression Explorer
 
-### About the Project
-    This tool is designed to analyze gene expression datasets from the 
-    NCBI Gene Expression Omnibus (GEO). It allows users to explore, visualize,
-    and interpret genomic data easily.
+This project presents a user-friendly bioinformatics application for exploring gene expression datasets obtained from GEO.
 
-    ### Features
-    - Upload GEO datasets (CSV)
-    - Data cleaning and preprocessing
-    - Gene expression visualization
-    - Identification of highest & lowest expressed genes
-    - Correlation heatmap
-    - PCA analysis
-    - Gene search functionality
+The application integrates data preprocessing, statistical visualization, and machine learning techniques such as PCA to provide meaningful biological insights. It also includes features for identifying highly expressed genes and performing preliminary biomarker analysis.
 
-    ### Applications
-    - Cancer gene expression analysis
-    - Biomarker discovery (basic level)
-    - Genomics research and education
+Built using Streamlit, this tool demonstrates the integration of computational biology and data science for real-world genomic data analysis.
 
-    ### Technologies Used
-    - Python
-    - Streamlit
-    - Pandas, NumPy
-    - Matplotlib, Seaborn
-    - Scikit-learn
+Features
+
+✅ Upload gene expression datasets (CSV)
+✅ Data cleaning and preprocessing
+✅ Expression distribution visualization (Histogram & Boxplot)
+✅ Correlation heatmap
+✅ PCA (Principal Component Analysis)
+✅ Clustering analysis
+✅ Volcano plot (basic)
+✅ Identification of highest & lowest expressed genes
+✅ Download processed dataset
+
+Dataset
+
+Input: CSV file (GEO dataset)
+Rows: Genes
+Columns: Samples (expression values)
+
+Applications
+
+Cancer genomics research
+Biomarker discovery (basic level)
+Gene expression analysis
+Educational tool for bioinformatics
+
+Future Scope
+
+Integration with GEO API for direct dataset fetching
+Differential expression analysis (p-value, fold change)
+Advanced biomarker detection
+Machine learning classification models
+Multi-omics data integration
+
+Technologies Used
+
+Python
+Streamlit
+Pandas & NumPy
+Matplotlib & Seaborn
+Scikit-learn
+
