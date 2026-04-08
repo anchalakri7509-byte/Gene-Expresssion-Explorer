@@ -1,12 +1,20 @@
-# Advanced Gene Expression Explorer
+#  Advanced Gene Expression Explorer
 
-This project presents a user-friendly bioinformatics application for exploring gene expression datasets obtained from GEO.
+![Streamlit App](https://img.shields.io/badge/Built%20with-Streamlit-red)
+![Python](https://img.shields.io/badge/Python-3.9-blue)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-The application integrates data preprocessing, statistical visualization, and machine learning techniques such as PCA to provide meaningful biological insights. It also includes features for identifying highly expressed genes and performing preliminary biomarker analysis.
+---
 
-Built using Streamlit, this tool demonstrates the integration of computational biology and data science for real-world genomic data analysis.
+##  Overview
 
-Features
+The **Advanced Gene Expression Explorer** is an interactive bioinformatics web application designed to analyze gene expression datasets obtained from the NCBI Gene Expression Omnibus (GEO).
+
+This tool simplifies complex genomic data analysis by integrating data preprocessing, visualization, and machine learning techniques into a single user-friendly interface.
+
+---
+
+##  Features
 
 ✅ Upload gene expression datasets (CSV)
 ✅ Data cleaning and preprocessing
@@ -18,32 +26,45 @@ Features
 ✅ Identification of highest & lowest expressed genes
 ✅ Download processed dataset
 
-Dataset
+---
 
-Input: CSV file (GEO dataset)
-Rows: Genes
-Columns: Samples (expression values)
 
-Applications
+##  Dataset
 
-Cancer genomics research
-Biomarker discovery (basic level)
-Gene expression analysis
-Educational tool for bioinformatics
+* Input: CSV file (GEO dataset)
+* Rows: Genes
+* Columns: Samples (expression values)
 
-Future Scope
+---
 
-Integration with GEO API for direct dataset fetching
-Differential expression analysis (p-value, fold change)
-Advanced biomarker detection
-Machine learning classification models
-Multi-omics data integration
+##  Applications
 
-Technologies Used
+* 🔬 Cancer genomics research
+* 🧬 Biomarker discovery (basic level)
+* 📊 Gene expression analysis
+* 🎓 Educational tool for bioinformatics
 
-Python
-Streamlit
-Pandas & NumPy
-Matplotlib & Seaborn
-Scikit-learn
+---
+
+##  Future Scope
+
+* Integration with GEO API for direct dataset fetching
+* Differential expression analysis (p-value, fold change)
+* Advanced biomarker detection
+* Machine learning classification models
+* Multi-omics data integration
+
+---
+
+##  Technologies Used
+
+* Python
+* Streamlit
+* Pandas & NumPy
+* Matplotlib & Seaborn
+* Scikit-learn
+
+---
+
+
 
